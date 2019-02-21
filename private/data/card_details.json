@@ -1,0 +1,332 @@
+{
+  "3": {
+    "resource": {
+      "type": "Oil",
+      "quantity": 2
+    },
+    "city": 1,
+    "inDeck": true
+  },
+  "4": {
+    "resource": {
+      "type": "Coal",
+      "quantity": 2
+    },
+    "city": 1,
+    "inDeck": true
+  },
+  "5": {
+    "resource": {
+      "type": "Hybrid",
+      "quantity": 2
+    },
+    "city": 1,
+    "inDeck": true
+  },
+  "6": {
+    "resource": {
+      "type": "Garbage",
+      "quantity": 1
+    },
+    "city": 1,
+    "inDeck": true
+  },
+  "7": {
+    "resource": {
+      "type": "Oil",
+      "quantity": 3
+    },
+    "city": 2,
+    "inDeck": true
+  },
+  "8": {
+    "resource": {
+      "type": "Coal",
+      "quantity": 3
+    },
+    "city": 2,
+    "inDeck": true
+  },
+  "9": {
+    "resource": {
+      "type": "Oil",
+      "quantity": 1
+    },
+    "city": 1,
+    "inDeck": true
+  },
+  "10": {
+    "resource": {
+      "type": "Coal",
+      "quantity": 2
+    },
+    "city": 2,
+    "inDeck": true
+  },
+  "11": {
+    "type": "Nulear",
+    "inputs": 1,
+    "output": 2,
+    "inDeck": true
+  },
+  "12": {
+    "resource": {
+      "type": "Hybrid",
+      "quantity": 2
+    },
+    "city": 2,
+    "inDeck": true
+  },
+  "13": {
+    "type": "Ecolgical",
+    "inputs": 0,
+    "output": 1,
+    "inDeck": true
+  },
+  "14": {
+    "resource": {
+      "type": "Garbage",
+      "quantity": 2
+    },
+    "city": 2,
+    "inDeck": true
+  },
+  "15": {
+    "resource": {
+      "type": "Coal",
+      "quantity": 2
+    },
+    "city": 3,
+    "inDeck": true
+  },
+  "16": {
+    "resource": {
+      "type": "Oil",
+      "quantity": 2
+    },
+    "city": 3,
+    "inDeck": true
+  },
+  "17": {
+    "resource": {
+      "type": "Nulear",
+      "quantity": 1
+    },
+    "city": 2,
+    "inDeck": true
+  },
+  "18": {
+    "resource": {
+      "type": "Ecological",
+      "quantity": 0
+    },
+    "city": 4,
+    "inDeck": true
+  },
+  "19": {
+    "type": "Garbage",
+    "inputs": 2,
+    "output": 3,
+    "inDeck": true
+  },
+  "20": {
+    "resource": {
+      "type": "Coal",
+      "quantity": 3
+    },
+    "city": 5,
+    "inDeck": true
+  },
+  "21": {
+    "resource": {
+      "type": "Hybrid",
+      "quantity": 2
+    },
+    "city": 4,
+    "inDeck": true
+  },
+  "22": {
+    "resource": {
+      "type": "Ecological",
+      "quantity": 0
+    },
+    "city": 4,
+    "inDeck": true
+  },
+  "23": {
+    "resource": {
+      "type": "Nulear",
+      "quantity": 1
+    },
+    "city": 3,
+    "inDeck": true
+  },
+  "24": {
+    "resource": {
+      "type": "Garbage",
+      "quantity": 2
+    },
+    "city": 4,
+    "inDeck": true
+  },
+  "25": {
+    "resource": {
+      "type": "Coal",
+      "quantity": 2
+    },
+    "city": 5,
+    "inDeck": true
+  },
+  "26": {
+    "resource": {
+      "type": "Oil",
+      "quantity": 2
+    },
+    "city": 5,
+    "inDeck": true
+  },
+  "27": {
+    "resource": {
+      "type": "Ecological",
+      "quantity": 0
+    },
+    "city": 4,
+    "inDeck": true
+  },
+  "28": {
+    "resource": {
+      "type": "Nulear",
+      "quantity": 1
+    },
+    "city": 4,
+    "inDeck": true
+  },
+  "29": {
+    "resource": {
+      "type": "Hybrid",
+      "quantity": 1
+    },
+    "city": 4,
+    "inDeck": true
+  },
+  "30": {
+    "resource": {
+      "type": "Garbage",
+      "quantity": 3
+    },
+    "city": 6,
+    "inDeck": true
+  },
+  "31": {
+    "resource": {
+      "type": "Coal",
+      "quantity": 3
+    },
+    "city": 6,
+    "inDeck": true
+  },
+  "32": {
+    "resource": {
+      "type": "Oil",
+      "quantity": 3
+    },
+    "city": 6,
+    "inDeck": true
+  },
+  "33": {
+    "resource": {
+      "type": "Ecological",
+      "quantity": 0
+    },
+    "city": 4,
+    "inDeck": true
+  },
+  "34": {
+    "resource": {
+      "type": "Nulear",
+      "quantity": 1
+    },
+    "city": 5,
+    "inDeck": true
+  },
+  "35": {
+    "resource": {
+      "type": "Oil",
+      "quantity": 1
+    },
+    "city": 5,
+    "inDeck": true
+  },
+  "36": {
+    "resource": {
+      "type": "Coal",
+      "quantity": 3
+    },
+    "city": 7,
+    "inDeck": true
+  },
+  "37": {
+    "resource": {
+      "type": "Ecological",
+      "quantity": 0
+    },
+    "city": 4,
+    "inDeck": true
+  },
+  "38": {
+    "resource": {
+      "type": "Garbage",
+      "quantity": 3
+    },
+    "city": 7,
+    "inDeck": true
+  },
+  "39": {
+    "resource": {
+      "type": "Nulear",
+      "quantity": 1
+    },
+    "city": 6,
+    "inDeck": true
+  },
+  "40": {
+    "resource": {
+      "type": "Oil",
+      "quantity": 2
+    },
+    "city": 6,
+    "inDeck": true
+  },
+  "42": {
+    "resource": {
+      "type": "Coal",
+      "quantity": 2
+    },
+    "city": 6,
+    "inDeck": true
+  },
+  "44": {
+    "resource": {
+      "type": "Ecological",
+      "quantity": 0
+    },
+    "city": 4,
+    "inDeck": true
+  },
+  "46": {
+    "resource": {
+      "type": "Hybrid",
+      "quantity": 3
+    },
+    "city": 7,
+    "inDeck": true
+  },
+  "50": {
+    "resource": {
+      "type": "Ecological",
+      "quantity": 0
+    },
+    "city": 4,
+    "inDeck": true
+  }
+}

@@ -1,0 +1,365 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  color: #b0d8eb;
+}
+
+.player-name {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.players-section {
+  display: flex;
+  justify-content: space-around;
+  height: 163px;
+  width: 100%;
+  align-items: center;
+  background-color: #2d303d;
+}
+
+.player-color-red {
+  border-top: 10px solid red;
+}
+
+.player-color-blue {
+  border-top: 10px solid blue;
+}
+
+.player-color-orange {
+  border-top: 10px solid orange;
+}
+.player-color-pink {
+  border-top: 10px solid pink;
+}
+.player-color-black {
+  border-top: 10px solid black;
+}
+.player-color-yellow {
+  border-top: 10px solid yellow;
+}
+
+.player-profile {
+  box-shadow: 0px 0px 42px 3px rgba(2, 2, 2, 0.52);
+  border-radius: 5%;
+  height: 135px;
+  align-items: center;
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #4b4f62;
+}
+
+.map-section {
+  box-shadow: 0px 0px 42px 3px rgba(2, 2, 2, 0.52);
+  width: 66%;
+  z-index: 1;
+  background: #b2d8e8;
+}
+
+.activity-log {
+  overflow: scroll;
+  width: 35%;
+  height: 600px;
+  background-color: #2d303d;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.player-header {
+  width: 100%;
+  margin-top: 2%;
+  border-bottom: 1px solid #6f717f;
+
+  display: flex;
+  justify-content: space-between;
+  font-weight: bolder;
+}
+
+.self-details {
+  overflow: scroll;
+  width: 35%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #2d303d;
+}
+
+.self-cash {
+  border: 1px solid #4c4d64;
+  text-align: center;
+  background: #605d6842;
+  width: 80%;
+  font-weight: bolder;
+}
+
+.power-plant {
+  width: 80%;
+  height: 125px;
+  border: 1px solid #4b4f62;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 18px;
+}
+
+th {
+  background: #605d6842;
+}
+
+th,
+td {
+  border: 1px solid #4b4f62;
+}
+
+.unselectedCard {
+  height: 88%;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  border-radius: 9px;
+  background: #759cae;
+}
+
+.player-power-plant {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 0.5px solid #6f7080;
+  background-color: #2c2f3e2e;
+}
+
+.player-power-plants {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.player-resources {
+  width: 100%;
+  height: 20%;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.player-resource {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selectedCard {
+  height: 88%;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  border-radius: 9px;
+  border: 2px solid orangered;
+  background: #759cae;
+}
+
+.price {
+  height: 55%;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #3e43475e;
+  border-radius: 50%;
+  color: #3e4346;
+  font-weight: bold;
+  background: #f0f8ffd6;
+}
+
+.card-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 17px;
+  text-align: center;
+  background: #21353f57;
+  height: 20%;
+}
+
+.single-market {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 0.5%;
+  width: 940px;
+  height: 180px;
+}
+
+.resource-market {
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 940px;
+  height: 125px;
+  border: solid 1px #5e7886;
+}
+
+.price-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  width: 100%;
+}
+
+.price {
+  height: 55%;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #3e43475e;
+  border-radius: 50%;
+  color: #3e4346;
+  font-weight: bold;
+  background: #f0f8ffd6;
+}
+
+.resource-grid {
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 10%;
+  height: 90%;
+  border: solid 1px #5e7886;
+}
+
+.resource {
+  width: 30%;
+  height: 30%;
+  border: solid 1px #759cae;
+  color: #3e4346;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cost {
+  position: absolute;
+  bottom: 89%;
+  left: 90%;
+  width: 20%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3e4346;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.last-uranium {
+  position: relative;
+  width: 40%;
+  height: 40%;
+  border: solid 1px #759cae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3e4346;
+}
+
+.fa-radiation-alt:before {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150%;
+}
+
+.fa-oil-can:before {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-cubes:before {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-trash-alt:before {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resource.middle-resource {
+  width: 22%;
+}
+
+.uranium-cost {
+  position: absolute;
+  bottom: 73%;
+  left: 76%;
+  width: 36%;
+  height: 36%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  z-index: 1;
+  font-size: 70%;
+  color: #3e4346;
+  font-weight: bolder;
+}
+
+.bidding-section {
+  background-color: white;
+  border-radius: 10px;
+  height: 80px;
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 10px;
+  color: #3e4346;
+}
+
+.increase-bid {
+  position: relative;
+  top: 10%;
+  height: 100%;
+}
+
+.focus {
+  border: 1px solid white;
+}

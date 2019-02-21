@@ -1,0 +1,4 @@
+#!/bin/bash
+
+nyc mocha --recursive
+nyc check-coverage --functions 100 --branches 100
